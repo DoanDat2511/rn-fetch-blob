@@ -11,7 +11,6 @@ import fs from '../fs.js'
 import getUUID from '../utils/uuid'
 import Log from '../utils/log.js'
 import EventTarget from './EventTarget'
-import {NativeModules} from 'react-native';
 const RNFetchBlob = NativeModules.RNFetchBlob
 const log = new Log('Blob')
 const blobCacheDir = fs.dirs.DocumentDir + '/RNFetchBlob-blobs/'
